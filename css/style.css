@@ -1,0 +1,91 @@
+body {
+  background: #e8e4d9;
+  color: #0a0a0a;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #0a0a0a;
+  color: #fff;
+}
+
+main {
+  max-width: 65rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#tickets {
+  margin: 2rem 0;
+}
+
+table {
+  width: 100%;
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  border: 2px solid #0a0a0a;
+  box-shadow: 8px 8px 0 #0a0a0a;
+  flex: 1 1 12rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.card strong {
+  color: #0047ff;
+}
+
+.badge {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+figure {
+  border: 2px solid #0a0a0a;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+blockquote {
+  border: 2px solid #0a0a0a;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+button {
+  border: 2px solid #0a0a0a;
+  margin: 1rem 0 0 0;
+  padding: 0.5rem 1rem;
+}
